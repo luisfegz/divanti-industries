@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='mr-2'>
               <Image src='/favicon.ico' width={32} height={32} alt='Protein Icon' />
             </div>
-            <span className='w-full font-semibold text-green-500'>ProteinExpress</span>
+            <span className='w-full font-semibold text-green-500'>Divanti Industries</span>
             
           </Link>
 

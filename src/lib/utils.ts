@@ -16,7 +16,7 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Yepes - website",
+  title = "Divanti Industries",
   description = "IOT",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
