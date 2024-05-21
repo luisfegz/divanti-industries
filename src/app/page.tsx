@@ -2,61 +2,16 @@
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import CustomButton from '@/components/ui/CustomButton'
+import Image from 'next/image'
 import Link from 'next/link'
 
 
 export default function Home() {
   return (
     <>
-    {/* value proposition section   
-    <div>
-        <div className='relative isolate'>
-            <div
-              aria-hidden='true'
-              className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
-              <div
-                style={{
-                  clipPath:
-                    'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                }}
-                className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#e9eb7d] to-[#087341] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
-              />
-            </div>
-              <div
-                aria-hidden='true'
-                className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
-                <div
-                  style={{
-                    clipPath:
-                      'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                  }}
-                  className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#61ed6f] to-[#54f3cb] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
-                />
-            </div>
-        </div>
-      </div>
-    */}
-      {/* value proposition section */}
+      {/* value proposition section    */}
       <div>
-        <div className='relative isolate'>
-            <div
-              aria-hidden='true'
-              className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
-              <div
-                style={{
-                  clipPath:
-                    'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                }}
-                className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#e9eb7d] to-[#087341] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
-              />
-              <div
-                style={{
-                  clipPath:
-                    'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                }}
-                className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#e9eb7d] to-[#087341] opacity-0 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
-              />
-            </div>
+          <div className='relative isolate'>
               <div
                 aria-hidden='true'
                 className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
@@ -65,26 +20,30 @@ export default function Home() {
                     clipPath:
                       'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
                   }}
-                  className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#61ed6f] to-[#05af3d] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+                  className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fff679] to-[#ffd600] opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
                 />
+              </div>
                 <div
-                  style={{
-                    clipPath:
-                      'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                  }}
-                  className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#61ed6f] to-[#54f3cb] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
-                />
-            </div>
-        </div>
+                  aria-hidden='true'
+                  className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+                  <div
+                    style={{
+                      clipPath:
+                        'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                    }}
+                    className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffed90] to-[#fff679] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+                  />
+              </div>
+          </div>
       </div>
-
+   
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <CustomButton/>
-        <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
-          <span className='text-green-500'>D</span>
+        <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
+          <span className='text-yellow-400'>D</span>
           EPARTAMENTO{' '}
           <br />
-          <span className='text-green-500'>C</span>
+          <span className='text-yellow-400'>C</span>
           CINNOVA
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
@@ -92,76 +51,187 @@ export default function Home() {
         <br /> 
         Avanzadas para la Construcción&quot;
         </p>
-
-        
       </MaxWidthWrapper>
 
+      {/* value proposition section */}
+      <div>
+        <div className='relative isolate'>
+          <div
+            aria-hidden='true'
+            className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+            <div
+              style={{
+                clipPath:
+                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              }}
+              className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fff679] to-[#ffd600] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className='relative isolate'>
+          <div
+            aria-hidden='true'
+            className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+            <div
+              style={{
+                clipPath:
+                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              }}
+              className='relative right-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffd600] to-[#fff950] opacity-10 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+            />
+          </div>
+        </div>
+      </div>
       
+      <div className='mt-24'>
+        <div className='mx-auto max-w-6xl px-6 lg:px-8'>
+          <div className='mt-16 flow-root sm:mt-24'>
+            <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto' }}>
+              <Image
+                src='/dashboard-preview.jpg'
+                alt='product preview'
+                width={800}
+                height={300}
+                quality={100}
+                className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Feature section */}
-      <div className='mx-auto mb-32 mt-32 max-w-5xl sm:mt-56'>
+      <div className='mx-auto mb-32 mt-24 max-w-5xl sm:mt-32'>
         <div className='mb-12 px-6 lg:px-8'>
           <div className='mx-auto max-w-2xl sm:text-center'>
             <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-              Start your fitness life 
+              Bienvenido a Divanti Industries - Construcción
             </h2>
-            <p className='mt-4 text-lg text-gray-600'>
-                  Our selected products could help you to
-                  increase your results.
+            <p className='mt-4 text-lg text-justify text-gray-600'>
+            Te invitamos a unirte a CCInnova, donde la innovación es el núcleo de nuestra 
+            revolución tecnológica en la industria de la construcción. Nuestras soluciones 
+            personalizadas transforman los desafíos en éxitos, convirtiendo los métodos no 
+            convencionales en tus aliados. Descubre cómo nuestra innovación puede impulsar el 
+            éxito de tu proyecto. ¡Esperamos trabajar contigo!
             </p>
           </div>
         </div>
-
-        {/* steps */}
+      
+        {/* Tech 1 */}
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-green-500'>
-                Step 1
+              <span className='text-sm font-medium text-yellow-500'>
+                Tecnología 1
               </span>
               <span className='text-xl font-semibold'>
-                Sign up for an account
+                UAV en construcción
               </span>
               <span className='mt-2 text-zinc-700'>
-                Either starting out with a free plan or
-                choose our{' '}
+                Aplicaciones:
+                <br />
+                <ul>
+                  <li>• Cartografía y topografía.</li>
+                  <li>• Inspecciones estructurales en alturas o en grandes distancias.</li>
+                  <li>• Monitoreo Geoespacial Remoto en obra desde la distancia.</li>
+                  <li>• INMO HUB.</li>
+                </ul>
+                {' '}
                 <Link
                   href='/pricing'
-                  className='text-green-600 underline underline-offset-2'>
-                  pro plan
+                  className='text-yellow-500 underline underline-offset-2'>
+                  Leer más
                 </Link>
                 .
               </span>
             </div>
           </li>
+         
+          {/* Tech 2 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-green-500'>
-                Step 2
+              <span className='text-sm font-medium text-yellow-500'>
+                Tecnología 3
               </span>
               <span className='text-xl font-semibold'>
-                Upload your PDF file
+                IOT( internet de las cosas) para la construcción
               </span>
               <span className='mt-2 text-zinc-700'>
-                We&apos;ll process your file and make it
-                ready for you to chat with.
+                Aplicaciones:
+                <ul>
+                  <li>• Seguimiento del rendimiento y la ubicación de la maquinaria.</li>
+                  <li>• Supervisión Integral avanzada de Seguridad y Salud en Obra.</li>
+                  <li>• Optimización Energética en edificios y sitios de construccion.</li>
+                </ul>
+                <Link
+                  href='/pricing'
+                  className='text-yellow-500 underline underline-offset-2'>
+                  Leer más
+                </Link>
+                .
               </span>
             </div>
           </li>
+
+          {/* Tech 3 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-green-500'>
-                Step 3
+              <span className='text-sm font-medium text-yellow-500'>
+                Tecnología 4
               </span>
               <span className='text-xl font-semibold'>
-                Start asking questions
+                INMO HUB (Marketing organico y digital para proyectos inmobiliarios)
               </span>
               <span className='mt-2 text-zinc-700'>
-                It&apos;s that simple. Try out GodDocs today -
-                it really takes less than a minute.
+                Aplicaciones:
+                <ul>
+                  <li>• Experiencias Del Cliente Actualizadas : Innovación en Marketing Digital y Organico con Realidad Aumentada y Realidad Virtual.</li>
+                  <li>• Identificacion de clientes potenciales segun (Ciudad, Sector , Capacidad Economica, Intereses, etc)</li>
+                  <li>• Contenido Visual Editado.</li>
+                  <li>• Calidad Sin Restricciones en Impresiones.</li>
+                </ul>
+                <Link
+                  href='/pricing'
+                  className='text-yellow-500 underline underline-offset-2'>
+                  Leer más
+                </Link>
+                .
               </span>
             </div>
           </li>
+          
+
+         {/* Tech 4 */}
+         <li className='md:flex-1'>
+            <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+              <span className='text-sm font-medium text-yellow-500'>
+                Tecnología 2
+              </span>
+              <span className='text-xl font-semibold'>
+                Realidad virtual y aumentada para construcción
+              </span>
+              <span className='mt-2 text-zinc-700'>
+                Aplicaciones:
+                <ul>
+                  <li>• PlanAR: Superposición inmersiva de Planos en la Realidad + herramientas.</li>
+                  <li>• Eficiencia y precision en procesos de inspeccion y direccion de obra.</li>
+                  <li>• Instalaciones tecnicas asistidas (Mecánica,Electricidad y Fontanería).</li>
+                  <li>• Experiencia personalizada para el cliente.</li>
+                  <li>• Mayor engagement en un alcance global.</li>
+                  <li>• INMO HUB.</li>
+                </ul>
+                <Link
+                  href='/pricing'
+                  className='text-yellow-500 underline underline-offset-2'>
+                  Leer más
+                </Link>
+                .
+              </span>
+            </div>
+         </li>
+         
         </ol>
 
         

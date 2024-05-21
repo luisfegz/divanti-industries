@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='mr-2'>
               <Image src='/favicon.ico' width={32} height={32} alt='Protein Icon' />
             </div>
-            <span className='w-full font-semibold text-green-500'>Divanti Industries</span>
+            <span className='w-full font-semibold text-black-500'>Divanti Industries</span>
             
           </Link>
 
@@ -32,13 +32,13 @@ const Navbar = () => {
                   size: 'sm',
                 })}
               >
-                Pricing
+                Contáctanos
               </Link>
               <Link
                 href='/products'
-                className='bg-green-500 hover:bg-green-700 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold'
+                className='bg-yellow-400 hover:bg-yellow-600 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold'
               >
-                Products
+                Tecnologías
                 <ArrowRight className='ml-1 h-5 w-5' />
               </Link>
             </>

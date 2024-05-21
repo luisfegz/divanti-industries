@@ -37,7 +37,7 @@ const MobileNav = () => {
                     onClick={() =>
                       closeOnCurrent('/pricing')
                     }
-                    className='flex items-center w-full font-semibold text-green-600'
+                    className='flex items-center w-full font-semibold text-yellow-500'
                     href='/products'>
                     Products
                     <ArrowRight className='ml-2 h-5 w-5' />

@@ -15,7 +15,7 @@ const CustomButton = () => {
       onPress={handleConfetti}
     >
       <p className='text-sm font-semibold text-gray-700'>
-        Your protein with free shipping!
+        Colombia, Latinoamerica
       </p>
     </Button>
   );
