@@ -110,11 +110,18 @@ export default function Home() {
               Bienvenido a Divanti Industries - Construcción
             </h2>
             <p className='mt-4 text-lg text-justify text-gray-600'>
-            Te invitamos a unirte a CCInnova, donde la innovación es el núcleo de nuestra 
-            revolución tecnológica en la industria de la construcción. Nuestras soluciones 
-            personalizadas transforman los desafíos en éxitos, convirtiendo los métodos no 
-            convencionales en tus aliados. Descubre cómo nuestra innovación puede impulsar el 
-            éxito de tu proyecto. ¡Esperamos trabajar contigo!
+            Innovación es el pilar de nuestro equipo. Nuestra misión es liderar la
+             revolución tecnológica que está enfrentando el mundo en la actualidad,
+              aplicada para la industria de la construcción. En este caso, nuestra
+              invitación es para Colombia y Latinoamérica, mediante la implementación
+              en las constructoras de soluciones brindadas gracias al desarrollo 
+              tecnológico de nuestro departamento a su disposición. No te pierdas la
+              oportunidad de contar en tu equipo de trabajo con un profundo 
+              conocimiento de las necesidades y desafíos de este sector en particular
+              y cómo los métodos no convencionales se convierten en tu aliado y no en
+              tu enemigo. Nos enorgullece presentar tu nuevo aliado, el departamento
+              CCINNOVA, con las soluciones tecnológicas en construcción que impulsan
+              el éxito.
             </p>
           </div>
         </div>
