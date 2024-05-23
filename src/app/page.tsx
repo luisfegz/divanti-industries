@@ -90,10 +90,10 @@ export default function Home() {
           <div className='mt-16 flow-root sm:mt-24'>
             <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto' }}>
               <Image
-                src='/dashboard-preview.jpg'
+                src='/iot_inside_building.jpg'
                 alt='product preview'
-                width={800}
-                height={300}
+                width={1024}
+                height={1024}
                 quality={100}
                 className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
               />
@@ -101,17 +101,23 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        <h1 className='max-w-4xl text-3xl font-bold md:text-6xl lg:text-7xl'>
+          <span className='text-yellow-400'>Bienvenidos</span>{' '}
+          a{' '}
+          Divanti{' '}
+          <span className='text-yellow-400'>Industries </span>
+          - Construcción
+        </h1>
+      </MaxWidthWrapper>
 
       {/* Feature section */}
-      <div className='mx-auto mb-32 mt-24 max-w-5xl sm:mt-32'>
+      <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
         <div className='mb-12 px-6 lg:px-8'>
           <div className='mx-auto max-w-2xl sm:text-center'>
-            <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-              Bienvenido a Divanti Industries - Construcción
-            </h2>
-            <p className='mt-4 text-lg text-justify text-gray-600'>
-            Innovación es el pilar de nuestro equipo. Nuestra misión es liderar la
-             revolución tecnológica que está enfrentando el mundo en la actualidad,
+            <p className=' text-lg text-justify text-gray-600'>
+              Innovación es el pilar de nuestro equipo. Nuestra misión es liderar la
+              revolución tecnológica que está enfrentando el mundo en la actualidad,
               aplicada para la industria de la construcción. En este caso, nuestra
               invitación es para Colombia y Latinoamérica, mediante la implementación
               en las constructoras de soluciones brindadas gracias al desarrollo 
@@ -125,7 +131,33 @@ export default function Home() {
             </p>
           </div>
         </div>
-      
+        {/* value proposition section    */}
+        <div>
+            <div className='relative isolate'>
+                <div
+                  aria-hidden='true'
+                  className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+                  <div
+                    style={{
+                      clipPath:
+                        'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                    }}
+                    className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fff679] to-[#ffd600] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+                  />
+                </div>
+                  <div
+                    aria-hidden='true'
+                    className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+                    <div
+                      style={{
+                        clipPath:
+                          'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                      }}
+                      className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffed90] to-[#fff679] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+                    />
+                </div>
+            </div>
+        </div>
         {/* Tech 1 */}
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
           <li className='md:flex-1'>
@@ -155,12 +187,11 @@ export default function Home() {
               </span>
             </div>
           </li>
-         
           {/* Tech 2 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-yellow-500'>
-                Tecnología 3
+                Tecnología 2
               </span>
               <span className='text-xl font-semibold'>
                 IOT( internet de las cosas) para la construcción
@@ -181,12 +212,11 @@ export default function Home() {
               </span>
             </div>
           </li>
-
           {/* Tech 3 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-yellow-500'>
-                Tecnología 4
+                Tecnología 3
               </span>
               <span className='text-xl font-semibold'>
                 INMO HUB (Marketing organico y digital para proyectos inmobiliarios)
@@ -208,13 +238,11 @@ export default function Home() {
               </span>
             </div>
           </li>
-          
-
          {/* Tech 4 */}
          <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-yellow-500'>
-                Tecnología 2
+                Tecnología 4
               </span>
               <span className='text-xl font-semibold'>
                 Realidad virtual y aumentada para construcción
@@ -238,8 +266,34 @@ export default function Home() {
               </span>
             </div>
          </li>
-         
         </ol>
+        {/* value proposition section    */}
+        <div>
+          <div className='relative isolate'>
+              <div
+                aria-hidden='true'
+                className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+                <div
+                  style={{
+                    clipPath:
+                      'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                  }}
+                  className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-y-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fff679] to-[#ffd600] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+                />
+              </div>
+                <div
+                  aria-hidden='true'
+                  className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
+                  <div
+                    style={{
+                      clipPath:
+                        'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                    }}
+                    className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffed90] to-[#fff679] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+                  />
+              </div>
+          </div>
+        </div>
 
         
       </div>
