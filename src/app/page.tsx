@@ -1,6 +1,8 @@
 'use client'
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import { VelocityScroll } from '@/components/magicui/scroll-based-velocity'
+import WordRotate from '@/components/magicui/word-rotate'
 import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -36,7 +38,7 @@ export default function Home() {
               </div>
           </div>
       </div>
-   
+      {/* Title */}
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <CustomButton/>
         <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
@@ -52,7 +54,6 @@ export default function Home() {
         Avanzadas para la Construcción&quot;
         </p>
       </MaxWidthWrapper>
-
       {/* value proposition section */}
       <div>
         <div className='relative isolate'>
@@ -101,16 +102,26 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+      {/* <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
           <span className='text-yellow-400'>Bienvenidos</span>{' '}
           a{' '}
           Divanti{' '}
           <span className='text-yellow-400'>Industries </span>
-          - Construcción
+          Construcción
         </h1>
+      </MaxWidthWrapper> */}
+      <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        <WordRotate 
+            className="text-4xl font-bold text-yellow-400 dark:text-white"
+            words={[
+              "Bienvenido a ...",
+              "Divanti Industries",
+              "Construcción",
+            ]}
+          />
       </MaxWidthWrapper>
-
+        
       {/* Feature section */}
       <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
         <div className='mb-12 px-6 lg:px-8'>
@@ -295,8 +306,13 @@ export default function Home() {
           </div>
         </div>
 
-        
       </div>
+
+      <VelocityScroll
+        text="Bienvenidos a Divanti Industries Construcción -"
+        default_velocity={5}
+        className="font-display text-center text-4xl font-bold tracking-[-0.02em] text-yellow-400 drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
+      />
     </>
   )
 }
