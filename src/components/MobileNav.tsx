@@ -38,8 +38,8 @@ const MobileNav = () => {
                       closeOnCurrent('/pricing')
                     }
                     className='flex items-center w-full font-semibold text-yellow-500'
-                    href='/products'>
-                    Products
+                    href='/soluciones'>
+                    Soluciones
                     <ArrowRight className='ml-2 h-5 w-5' />
                   </Link>
                 </li>
@@ -50,8 +50,19 @@ const MobileNav = () => {
                       closeOnCurrent('/pricing')
                     }
                     className='flex items-center w-full font-semibold'
-                    href='/pricing'>
-                    Pricing
+                    href='/productos'>
+                    Productos
+                  </Link>
+                </li>
+                <li className='my-3 h-px w-full bg-gray-300' />
+                <li>
+                  <Link
+                    onClick={() =>
+                      closeOnCurrent('/nosotros')
+                    }
+                    className='flex items-center w-full font-semibold'
+                    href='/nosotros'>
+                    Nosotros
                   </Link>
                 </li>
               </>

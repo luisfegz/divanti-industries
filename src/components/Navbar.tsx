@@ -26,19 +26,28 @@ const Navbar = () => {
           <div className='hidden items-center space-x-4 sm:flex'>
             <>
               <Link
-                href='/pricing'
+                  href='/nosotros'
+                  className={buttonVariants({
+                    variant: 'ghost',
+                    size: 'sm',
+                  })}
+                >
+                Nosotros
+              </Link>
+              <Link
+                href='/productos'
                 className={buttonVariants({
                   variant: 'ghost',
                   size: 'sm',
                 })}
               >
-                Contáctanos
+                Productos
               </Link>
               <Link
-                href='/products'
+                href='/soluciones'
                 className='bg-yellow-400 hover:bg-yellow-600 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold'
               >
-                Tecnologías
+                Soluciones
                 <ArrowRight className='ml-1 h-5 w-5' />
               </Link>
             </>
