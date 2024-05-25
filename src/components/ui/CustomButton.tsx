@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@nextui-org/react';
 import confetti from 'canvas-confetti';
 
+
 const CustomButton = () => {
   const handleConfetti = () => {
     confetti();
@@ -17,6 +18,7 @@ const CustomButton = () => {
       <p className='text-sm font-semibold text-gray-700'>
         Colombia, Latinoamerica
       </p>
+      
     </Button>
   );
 };

@@ -1,12 +1,13 @@
 'use client'
 
+
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import RetroGrid from '@/components/magicui/retro-grid'
 import { VelocityScroll } from '@/components/magicui/scroll-based-velocity'
 import WordRotate from '@/components/magicui/word-rotate'
 import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
-
 
 export default function Home() {
   return (
@@ -113,13 +114,14 @@ export default function Home() {
       </MaxWidthWrapper> */}
       <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <WordRotate 
-            className="text-4xl font-bold text-yellow-400 dark:text-white"
+            className="text-4xl sm:text-6xl font-bold text-yellow-400 dark:text-white"
             words={[
               "Bienvenido a ...",
               "Divanti Industries",
               "Construcción",
             ]}
           />
+          
       </MaxWidthWrapper>
         
       {/* Feature section */}
@@ -275,9 +277,12 @@ export default function Home() {
                 </Link>
                 .
               </span>
+              
+              <RetroGrid />
             </div>
          </li>
         </ol>
+        
         {/* value proposition section    */}
         <div>
           <div className='relative isolate'>
@@ -308,11 +313,13 @@ export default function Home() {
 
       </div>
 
-      <VelocityScroll
+      {/*<VelocityScroll
         text="Bienvenidos a Divanti Industries Construcción -"
         default_velocity={5}
         className="font-display text-center text-4xl font-bold tracking-[-0.02em] text-yellow-400 drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
-      />
+      />*/}
+      
+
     </>
   )
 }

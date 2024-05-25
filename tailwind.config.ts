@@ -1,3 +1,19 @@
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      animation: {
+        grid: "grid 15s linear infinite",
+      },
+      keyframes: {
+        grid: {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+    },
+  },
+};
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -74,3 +90,4 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 }
+
