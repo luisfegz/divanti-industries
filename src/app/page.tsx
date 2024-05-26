@@ -52,9 +52,9 @@ export default function Home() {
           CINNOVA
         </h1>
         <p className='mt-3 max-w-prose text-zinc-700 sm:text-sm'>
-          &quot;Centro de Desarrollo de Soluciones Tecnológicas
+          &quot;Centro de Desarrollo de Soluciones 
           <br /> 
-          Avanzadas en Construcción&quot;
+          Tecnológicas Avanzadas para la Construcción&quot;
         </p>
       </MaxWidthWrapper>
       
