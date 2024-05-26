@@ -51,7 +51,7 @@ export default function Home() {
           <span className='text-yellow-400'>C</span>
           CINNOVA
         </h1>
-        <p className='mt-3 max-w-prose text-zinc-700 sm:text-lg'>
+        <p className='mt-3 max-w-prose text-zinc-700 sm:text-sm'>
           &quot;Centro de Desarrollo de Soluciones Tecnológicas
           <br /> 
           Avanzadas para la Construcción&quot;
