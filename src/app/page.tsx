@@ -2,6 +2,7 @@
 
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import BoxReveal from '@/components/magicui/box-reveal'
 import Globe from '@/components/magicui/globe'
 import RetroGrid from '@/components/magicui/retro-grid'
 import { VelocityScroll } from '@/components/magicui/scroll-based-velocity'
@@ -42,20 +43,27 @@ export default function Home() {
           </div>
       </div>
       {/* Title */}
-      <MaxWidthWrapper className='mb-12 mt-10 sm:mt-10 flex flex-col items-center justify-center text-center'>
-        <CustomButton/>
-        <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
-          <span className='text-yellow-400'>D</span>
-          EPARTAMENTO{' '}
-          <br />
-          <span className='text-yellow-400'>C</span>
-          CINNOVA
-        </h1>
-        <p className='mt-3 max-w-prose text-zinc-700 sm:text-sm'>
-          &quot;Centro de Desarrollo de Soluciones 
-          <br /> 
-          Tecnológicas Avanzadas para la Construcción&quot;
-        </p>
+      <MaxWidthWrapper className='mb-18 mt-28 sm:mt-28 flex flex-col items-center justify-center text-center'>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <CustomButton/>
+          </BoxReveal>
+          
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
+              <span className='text-yellow-400'>D</span>
+              EPARTAMENTO{' '}
+              <br />
+              <span className='text-yellow-400'>C</span>
+              CINNOVA
+            </h1>
+          </BoxReveal>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h2 className="mt-3 max-w-prose text-zinc-700 sm:text-sm">
+              &quot;Centro de Desarrollo de Soluciones 
+              <br /> 
+              Tecnológicas Avanzadas para la Construcción&quot;
+            </h2>
+          </BoxReveal>
       </MaxWidthWrapper>
       
       {/* value proposition section */}
@@ -313,7 +321,6 @@ export default function Home() {
               </div>
           </div>
         </div>
-
       </div>
 
       {/*<VelocityScroll
