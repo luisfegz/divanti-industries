@@ -54,7 +54,7 @@ export default function Home() {
         <p className='mt-3 max-w-prose text-zinc-700 sm:text-sm'>
           &quot;Centro de Desarrollo de Soluciones Tecnológicas
           <br /> 
-          Avanzadas para la Construcción&quot;
+          Avanzadas en Construcción&quot;
         </p>
       </MaxWidthWrapper>
       
