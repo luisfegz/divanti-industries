@@ -42,7 +42,7 @@ export default function Home() {
           </div>
       </div>
       {/* Title */}
-      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-10 flex flex-col items-center justify-center text-center'>
+      <MaxWidthWrapper className='mb-12 mt-10 sm:mt-10 flex flex-col items-center justify-center text-center'>
         <CustomButton/>
         <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
           <span className='text-yellow-400'>D</span>
@@ -51,12 +51,11 @@ export default function Home() {
           <span className='text-yellow-400'>C</span>
           CINNOVA
         </h1>
-        <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-        &quot;Centro de Desarrollo de Soluciones Tecnológicas
-        <br /> 
-        Avanzadas para la Construcción&quot;
+        <p className='mt-8 max-w-prose text-zinc-700 sm:text-lg'>
+          &quot;Centro de Desarrollo de Soluciones Tecnológicas
+          <br /> 
+          Avanzadas para la Construcción&quot;
         </p>
-        
       </MaxWidthWrapper>
       
       {/* value proposition section */}
@@ -134,8 +133,8 @@ export default function Home() {
       <br />
       <br />
       <br />
-      
       <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        
         <WordRotate 
             className="text-4xl sm:text-6xl font-bold text-yellow-400 dark:text-white"
             words={[
