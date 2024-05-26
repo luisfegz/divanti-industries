@@ -13,7 +13,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <Globe className=" bottom-12 sm:bottom-12" />
+     
       {/* value proposition section    */}
       <div>
           <div className='relative isolate'>
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
       
-      {/* <div className='mt-24'>
+      <div className='mt-24'>
         <div className='mx-auto max-w-6xl px-6 lg:px-8'>
           <div className='mt-16 flow-root sm:mt-24'>
             <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto' }}>
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+      {/* <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
           <span className='text-yellow-400'>Bienvenidos</span>{' '}
           a{' '}
