@@ -13,7 +13,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <Globe className="bottom-12" />
+      <Globe className=" flex bottom-1 sm:bottom-12" />
       {/* value proposition section    */}
       <div>
           <div className='relative isolate'>
