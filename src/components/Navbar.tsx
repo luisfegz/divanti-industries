@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='flex h-14 items-center justify-between border-b border-zinc-200'>
           <Link href='/' className='flex items-center z-40 font-semibold'>
             <div className='mr-2'>
-              <Image src='/favicon.ico' width={32} height={32} alt='Protein Icon' />
+              <Image src='/favicon.ico' width={72} height={72} alt='Protein Icon' />
             </div>
             <span className='w-full font-semibold text-black-500'>Divanti Industries</span>
             
