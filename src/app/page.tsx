@@ -11,7 +11,7 @@ import WordRotate from '@/components/magicui/word-rotate'
 import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import SwipeButton from '@/components/ui/SwipeButton';
 
 export default function Home() {
   return (
@@ -65,6 +65,10 @@ export default function Home() {
               <br /> 
               Tecnológicas Avanzadas para la Construcción&quot;
             </h2>
+          </BoxReveal>
+          <br />
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <SwipeButton/>
           </BoxReveal>
       </MaxWidthWrapper>
       {/* value proposition section */}
@@ -417,12 +421,12 @@ export default function Home() {
           
         </div>
       </div>
-      <div>
+      <section id='SWIPE'>
         <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <Forms />
         </MaxWidthWrapper>
         <RetroGrid />
-      </div>
+      </section>
       <Globe className="bottom-18" />
 
     </>
