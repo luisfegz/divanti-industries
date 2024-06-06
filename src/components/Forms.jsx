@@ -72,7 +72,7 @@ const Forms = () => {
     };
 
     return (
-        <div className="bg-white rounded-xl w-full">
+        <div className="bg-white rounded-xl w-full pl-3 pr-3">
             <br/>
             <h1 className="place-content-center text-4xl font-bold md:text-5xl lg:text-6xl">Contáctanos</h1>
             <br/>
@@ -143,9 +143,10 @@ const Forms = () => {
                         type="submit"
                         className="bg-yellow-400 hover:bg-yellow-600 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold"
                     >
-                        Contáctanos
+                        ¡Descubra el siguiente paso!
                         <ArrowRight className="ml-1 h-5 w-5" />
                     </button>
+                    <br/>
                 </form>
             </div>
             
