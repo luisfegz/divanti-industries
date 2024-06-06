@@ -36,7 +36,7 @@ const Forms = () => {
     
         Correo electrónico: ${email}
         Nombre: ${name}
-        Nombre de su constructora: ${name_cosntructora}
+        Nombre de su constructora: ${name_constructora}
         Asunto: ${subject}
         Descripción: ${description}
 
@@ -53,7 +53,7 @@ const Forms = () => {
                 // Validación: solo letras (sin números ni caracteres especiales)
                 setName(e.target.value.replace(/[^A-Za-z\s]/g, ""));
                 break;
-            case "name_cosntructora":
+            case "name_constructora":
                 setName_Constructora(e.target.value);
                 break;
             case "email":
