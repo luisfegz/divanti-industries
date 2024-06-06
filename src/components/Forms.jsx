@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const Forms = () => {
     const [name, setName] = useState("");
+    const [name_constructora, setName_Constructora] = useState("");
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState(""); // Nuevo campo: Asunto
     const [description, setDescription] = useState(""); // Nuevo campo: Descripción
@@ -24,20 +25,22 @@ const Forms = () => {
         }
 
         // Maneja el envío del formulario (por ejemplo, enviar un correo electrónico)
-        console.log("Nombre:", name);
         console.log("Correo electrónico:", email);
+        console.log("Nombre:", name);
+        console.log("Nombre de su constructora::", name_constructora);
         console.log("Asunto:", subject);
         console.log("Descripción:", description);
 
         // Abre la ventana de chat de WhatsApp con el mensaje predefinido
         const ccinnovaMessage = `¡Hola CCINNOVA! Estamos interesados en contratar sus servicios para un proyecto de construcción. A continuación, nuestros detalles:
-        
-Nombre: ${name}
-Correo electrónico: ${email}
-Asunto: ${subject}
-Descripción: ${description}
+    
+        Correo electrónico: ${email}
+        Nombre: ${name}
+        Nombre de su constructora: ${name_cosntructora}
+        Asunto: ${subject}
+        Descripción: ${description}
 
-Esperamos su pronta respuesta. ¡Gracias!`;
+        Esperamos su pronta respuesta. ¡Gracias!`;
 
         const encodedMessage = encodeURIComponent(ccinnovaMessage);
         const url = `https://wa.me/3023666885?text=${encodedMessage}`;
@@ -49,6 +52,9 @@ Esperamos su pronta respuesta. ¡Gracias!`;
             case "name":
                 // Validación: solo letras (sin números ni caracteres especiales)
                 setName(e.target.value.replace(/[^A-Za-z\s]/g, ""));
+                break;
+            case "name_cosntructora":
+                setName_Constructora(e.target.value);
                 break;
             case "email":
                 setEmail(e.target.value);
@@ -78,6 +84,17 @@ Esperamos su pronta respuesta. ¡Gracias!`;
                         name="name"
                         placeholder="Nombre"
                         value={name}
+                        onChange={handleChange}
+                        className="w-full p-5 mb-5 border border-gray-300 rounded-lg box-border font-sans"
+                    />
+                    <br/>
+                    <br/>
+                    {/* Campo de nombre de constructora */}
+                    <input
+                        type="text"
+                        name="name_cosntructora"
+                        placeholder="Nombre de la Cosntructora"
+                        value={name_cosntructora}
                         onChange={handleChange}
                         className="w-full p-5 mb-5 border border-gray-300 rounded-lg box-border font-sans"
                     />
