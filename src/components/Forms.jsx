@@ -92,7 +92,7 @@ const Forms = () => {
                     {/* Campo de nombre de constructora */}
                     <input
                         type="text"
-                        name="name_cosntructora"
+                        name="name_constructora"
                         placeholder="Nombre de la Constructora"
                         value={name_constructora}
                         onChange={handleChange}
