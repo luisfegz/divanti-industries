@@ -1,6 +1,7 @@
 'use client'
 
 
+import Forms from '@/components/Forms'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import BoxReveal from '@/components/magicui/box-reveal'
 import Globe from '@/components/magicui/globe'
@@ -342,7 +343,7 @@ export default function Home() {
                 </Link>
                 .
               </span>
-              <RetroGrid />
+              
             </div>
          </li>
         </ol>
@@ -376,11 +377,52 @@ export default function Home() {
         </div>
       </div>
 
-      {/*<VelocityScroll
-        text="Bienvenidos a Divanti Industries Construcción -"
+      {/* <VelocityScroll
+        text="¿Cómo trabajamos?"
         default_velocity={5}
         className="font-display text-center text-4xl font-bold tracking-[-0.02em] text-yellow-400 drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
-      />*/}
+      /> */}
+      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
+              <span className='text-yellow-400'>C</span>
+              ómo trabajamos?{' '}
+            </h1>
+          </BoxReveal>
+      </MaxWidthWrapper>
+      {/* Feature section */}
+      <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
+        <div className='mb-12 px-6 lg:px-8'>
+          <div className='mx-auto max-w-2xl sm:text-center'>
+            <p className='text-lg text-justify text-gray-600'>
+              En el departamento CCINNOVA, no solo nos esforzamos por entregar un producto final de calidad, 
+              sino que también valoramos profundamente el proceso, es por eso que Además de ofrecer productos
+              de alta calidad, como departamento de tu grupo constructor nos comprometemos a brindar capacitación
+              integral, asistencia y sporte técnico acompañado de actualizaciones para cada una de nuestras 
+              tecnologías y nuevas soluciones por innovar.
+            </p>
+            <br/>
+            <p className='text-lg text-justify text-gray-600'>
+              Optamos por llevar a cabo este proceso en pasos o etapas bien definidas ; para garantizar que cada 
+              detalle sea cuidadosamente considerado y ejecutado con la máxima calidad. Desde la concepción inicial 
+              hasta la entrega final, nos dedicamos a proporcionar una experiencia excepcional a nuestros clientes. 
+            </p>
+            <br/>
+            <p className='text-lg text-justify text-gray-600'>
+              Desde el primer contacto hasta la entrega,  nuestro equipo experto se compromete a guiarlo a través 
+              de cada etapa del proceso, asegurándonos de que sus necesidades y expectativas sean superadas en cada
+              momento.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      <div>
+        <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+          <Forms />
+        </MaxWidthWrapper>
+        <RetroGrid />
+      </div>
       <Globe className="bottom-18" />
 
     </>
