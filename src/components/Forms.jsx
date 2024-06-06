@@ -93,8 +93,8 @@ const Forms = () => {
                     <input
                         type="text"
                         name="name_cosntructora"
-                        placeholder="Nombre de la Cosntructora"
-                        value={name_cosntructora}
+                        placeholder="Nombre de la Constructora"
+                        value={name_constructora}
                         onChange={handleChange}
                         className="w-full p-5 mb-5 border border-gray-300 rounded-lg box-border font-sans"
                     />
