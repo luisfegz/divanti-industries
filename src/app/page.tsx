@@ -11,6 +11,7 @@ import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function Home() {
   return (
     <>
@@ -59,13 +60,12 @@ export default function Home() {
           </BoxReveal>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h2 className="mt-3 max-w-prose text-zinc-700 sm:text-sm">
-              &quot;Centro de Desarrollo de Soluciones 
+              &quot;Centro de Desarrollo: Soluciones 
               <br /> 
               Tecnológicas Avanzadas para la Construcción&quot;
             </h2>
           </BoxReveal>
       </MaxWidthWrapper>
-      
       {/* value proposition section */}
       <div>
         <div className='relative isolate'>
@@ -101,7 +101,7 @@ export default function Home() {
       <div className='mt-24'>
         <div className='mx-auto max-w-6xl px-6 lg:px-8'>
           <div className='mt-16 flow-root sm:mt-24'>
-            <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto' }}>
+            <div className='rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto' }}>
               <Image
                 src='/iot_inside_building.jpg'
                 alt='product preview'
@@ -114,6 +114,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Slider 
+      <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        <div className=''>
+            <Image 
+                  src='/1.jpg' 
+                  height={1500} 
+                  width={1000}
+                  alt='1'
+            />   
+        </div>
+      </MaxWidthWrapper>
+      
       {/* <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
           <span className='text-yellow-400'>Bienvenidos</span>{' '}
@@ -186,7 +198,17 @@ export default function Home() {
         {/* Tech 1 */}
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
           <li className='md:flex-1'>
-            <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+            <div className='sm:left-2 flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+              <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                <Image
+                  src='/1.jpeg'
+                  alt='product preview'
+                  width={1024}
+                  height={1024}
+                  quality={100}
+                  className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                />
+              </div>
               <span className='text-sm font-medium text-yellow-500'>
                 Tecnología 1
               </span>
@@ -196,7 +218,7 @@ export default function Home() {
               <span className='mt-2 text-zinc-700'>
                 Aplicaciones:
                 <br />
-                <ul>
+                <ul className='space-y-2'>
                   <li>• Cartografía y topografía.</li>
                   <li>• Inspecciones estructurales en alturas o en grandes distancias.</li>
                   <li>• Monitoreo Geoespacial Remoto en obra desde la distancia.</li>
@@ -212,9 +234,20 @@ export default function Home() {
               </span>
             </div>
           </li>
+
           {/* Tech 2 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+              <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                <Image
+                  src='/2.jpeg'
+                  alt='product preview'
+                  width={1024}
+                  height={1024}
+                  quality={100}
+                  className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                />
+              </div>
               <span className='text-sm font-medium text-yellow-500'>
                 Tecnología 2
               </span>
@@ -223,7 +256,7 @@ export default function Home() {
               </span>
               <span className='mt-2 text-zinc-700'>
                 Aplicaciones:
-                <ul>
+                <ul className='space-y-2'>
                   <li>• Seguimiento del rendimiento y la ubicación de la maquinaria.</li>
                   <li>• Supervisión Integral avanzada de Seguridad y Salud en Obra.</li>
                   <li>• Optimización Energética en edificios y sitios de construccion.</li>
@@ -240,6 +273,16 @@ export default function Home() {
           {/* Tech 3 */}
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+            <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                <Image
+                  src='/3.jpeg'
+                  alt='product preview'
+                  width={1024}
+                  height={1024}
+                  quality={100}
+                  className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                />
+              </div>
               <span className='text-sm font-medium text-yellow-500'>
                 Tecnología 3
               </span>
@@ -248,7 +291,7 @@ export default function Home() {
               </span>
               <span className='mt-2 text-zinc-700'>
                 Aplicaciones:
-                <ul>
+                <ul className='space-y-2'>
                   <li>• Experiencias Del Cliente Actualizadas : Innovación en Marketing Digital y Organico con Realidad Aumentada y Realidad Virtual.</li>
                   <li>• Identificacion de clientes potenciales segun (Ciudad, Sector , Capacidad Economica, Intereses, etc)</li>
                   <li>• Contenido Visual Editado.</li>
@@ -266,6 +309,16 @@ export default function Home() {
          {/* Tech 4 */}
          <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+              <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                <Image
+                  src='/2.jpeg'
+                  alt='product preview'
+                  width={1024}
+                  height={1024}
+                  quality={100}
+                  className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                />
+              </div>
               <span className='text-sm font-medium text-yellow-500'>
                 Tecnología 4
               </span>
@@ -274,7 +327,7 @@ export default function Home() {
               </span>
               <span className='mt-2 text-zinc-700'>
                 Aplicaciones:
-                <ul>
+                <ul className='space-y-2'>
                   <li>• PlanAR: Superposición inmersiva de Planos en la Realidad + herramientas.</li>
                   <li>• Eficiencia y precision en procesos de inspeccion y direccion de obra.</li>
                   <li>• Instalaciones tecnicas asistidas (Mecánica,Electricidad y Fontanería).</li>
