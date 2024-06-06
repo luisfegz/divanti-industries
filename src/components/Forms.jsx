@@ -34,13 +34,13 @@ const Forms = () => {
         // Abre la ventana de chat de WhatsApp con el mensaje predefinido
         const ccinnovaMessage = `¡Hola CCINNOVA! Estamos interesados en contratar sus servicios para un proyecto de construcción. A continuación, nuestros detalles:
     
-        Correo electrónico: ${email}
-        Nombre: ${name}
-        Nombre de su constructora: ${name_constructora}
-        Asunto: ${subject}
-        Descripción: ${description}
+Correo electrónico: ${email}
+Nombre: ${name}
+Nombre de su constructora: ${name_constructora}
+Asunto: ${subject}
+Descripción: ${description}
 
-        Esperamos su pronta respuesta. ¡Gracias!`;
+Esperamos su pronta respuesta. ¡Gracias!`;
 
         const encodedMessage = encodeURIComponent(ccinnovaMessage);
         const url = `https://wa.me/3023666885?text=${encodedMessage}`;
