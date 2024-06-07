@@ -316,7 +316,7 @@ export default function Home() {
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-3 pr-3 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
                 <Image
-                  src='/2.jpeg'
+                  src='/4.jpeg'
                   alt='product preview'
                   width={1024}
                   height={1024}
@@ -416,6 +416,38 @@ export default function Home() {
               Desde el primer contacto hasta la entrega,  nuestro equipo experto se compromete a guiarlo a través 
               de cada etapa del proceso, asegurándonos de que sus necesidades y expectativas sean superadas en cada
               momento.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
+              <span className='text-yellow-400'>C</span>
+              REW{' '}
+              <br />
+              <span className='text-yellow-400'>I</span>
+              NVERSIONISTAS{' '}
+            </h1>
+          </BoxReveal>
+      </MaxWidthWrapper>
+      {/* Feature section */}
+      <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
+        <div className='mb-12 px-6 lg:px-8'>
+          <div className='mx-auto max-w-2xl sm:text-center'>
+            <p className='text-lg text-justify text-gray-600'>
+              En CCINNOVA, estamos en búsqueda de socios estratégicos que 
+              deseen participar en emocionantes proyectos destinados a 
+              revolucionar el sector de la construcción en Colombia y 
+              latino america ; Nuestra visión es clara: liderar el
+              camino hacia el futuro de la construcción mediante el
+              desarrollo y la implementación de tecnologías a la vanguardia
+              que impulsen la eficiencia, la sostenibilidad y la calidad en
+              cada proyecto. Desde soluciones de construcción inteligentes 
+              hasta sistemas avanzados de gestión de obras, estamos 
+              comprometidos con la creación de un ecosistema innovador que
+              transforme la manera en que se construye en Colombia Y LATINOAMERICA.
             </p>
           </div>
           
