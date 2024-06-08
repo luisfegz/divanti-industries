@@ -447,7 +447,7 @@ export default function Home() {
               cada proyecto. Desde soluciones de construcción inteligentes 
               hasta sistemas avanzados de gestión de obras, estamos 
               comprometidos con la creación de un ecosistema innovador que
-              transforme la manera en que se construye en Colombia Y LATINOAMERICA.
+              transforme la manera en que se construye en Colombia Y Latinoamérica  .
             </p>
           </div>
           

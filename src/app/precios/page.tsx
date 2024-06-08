@@ -2,7 +2,6 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper"
 import BoxReveal from '../../components/magicui/box-reveal';
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 
 const Page = () => {
   return (
@@ -24,33 +23,23 @@ const Page = () => {
 
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
             <li className='md:flex-1'>
-              <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-3 pr-3 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-                <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
-                  <Image
-                    src='/4.jpeg'
-                    alt='product preview'
-                    width={1024}
-                    height={1024}
-                    quality={100}
-                    className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
-                  />
-                </div>
+              <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
                 <span className='text-sm font-medium text-yellow-500'>
-                  Tecnología 4
+                  Cartografía y Topografía
                 </span>
                 <span className='text-xl font-semibold'>
-                  Realidad virtual y aumentada para construcción
+                  UAV en construcción
                 </span>
                 <span className='mt-2 text-zinc-700'>
                   Aplicaciones:
-                  <ul className='space-y-2'>
-                    <li>• PlanAR: Superposición inmersiva de Planos en la Realidad + herramientas.</li>
-                    <li>• Eficiencia y precision en procesos de inspeccion y direccion de obra.</li>
-                    <li>• Instalaciones tecnicas asistidas (Mecánica,Electricidad y Fontanería).</li>
-                    <li>• Experiencia personalizada para el cliente.</li>
-                    <li>• Mayor engagement en un alcance global.</li>
+                  <br />
+                  <ul>
+                    <li>• Cartografía y topografía.</li>
+                    <li>• Inspecciones estructurales en alturas o en grandes distancias.</li>
+                    <li>• Monitoreo Geoespacial Remoto en obra desde la distancia.</li>
                     <li>• INMO HUB.</li>
                   </ul>
+                  {' '}
                   <Link
                     href='/pricing'
                     className='text-yellow-500 underline underline-offset-2'>
@@ -58,9 +47,8 @@ const Page = () => {
                   </Link>
                   .
                 </span>
-                
               </div>
-          </li>
+            </li>
           </ol>
       </MaxWidthWrapper>
     </>

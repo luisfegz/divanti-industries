@@ -51,7 +51,7 @@ const MobileNav = () => {
                     }
                     className='flex items-center w-full font-semibold'
                     href='/productos'>
-                    Productos
+                    Precios
                   </Link>
                 </li>
                 <li className='my-3 h-px w-full bg-gray-300' />
