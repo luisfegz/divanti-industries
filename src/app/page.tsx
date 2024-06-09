@@ -12,6 +12,10 @@ import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import SwipeButton from '@/components/ui/SwipeButton';
+import SparklesText from '@/components/magicui/sparkles-text'
+import { CoolMode } from '@/components/magicui/cool-mode'
+
+
 
 export default function Home() {
   return (
@@ -44,6 +48,8 @@ export default function Home() {
               </div>
           </div>
       </div>
+      {/* Slider */}
+      
       {/* Title */}
       <MaxWidthWrapper className='mb-18 mt-28 sm:mt-28 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
@@ -68,9 +74,12 @@ export default function Home() {
           </BoxReveal>
           <br />
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
-            <SwipeButton/>
+            <CoolMode>
+              <button><SwipeButton/></button>
+            </CoolMode>
           </BoxReveal>
       </MaxWidthWrapper>
+      
       {/* value proposition section */}
       <div>
         <div className='relative isolate'>
@@ -422,7 +431,7 @@ export default function Home() {
         </div>
       </div>
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
-          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+          {/* <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
               <span className='text-yellow-400'>C</span>
               REW{' '}
@@ -430,7 +439,8 @@ export default function Home() {
               <span className='text-yellow-400'>I</span>
               NVERSIONISTAS{' '}
             </h1>
-          </BoxReveal>
+          </BoxReveal> */}
+          <SparklesText text='Crew Inversionistas'/>
       </MaxWidthWrapper>
       {/* Feature section */}
       <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
