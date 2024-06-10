@@ -101,11 +101,11 @@ const SparklesText: React.FC<SparklesTextProps> = ({
     const interval = setInterval(updateStars, 100);
 
     return () => clearInterval(interval);
-  }, [colors.first, colors.second]);
+  }, [colors.first, colors.second, sparklesCount]);
 
   return (
     <div
-      className={cn("text-4xl sm:text-5xl font-bold", className)}
+      className={cn("text-5xl font-bold", className)}
       {...props}
       style={
         {

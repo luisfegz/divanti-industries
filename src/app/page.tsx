@@ -11,16 +11,14 @@ import WordRotate from '@/components/magicui/word-rotate'
 import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
-import SwipeButton from '@/components/ui/SwipeButton';
+import SwipeButton from '@/components/ui/SwipeButton'
 import SparklesText from '@/components/magicui/sparkles-text'
-import { CoolMode } from '@/components/magicui/cool-mode'
-
+import Slider from '@/components/Slider'
 
 
 export default function Home() {
   return (
     <>
-     
       {/* value proposition section    */}
       <div>
           <div className='relative isolate'>
@@ -49,7 +47,7 @@ export default function Home() {
           </div>
       </div>
       {/* Slider */}
-      
+      <Slider/>      
       {/* Title */}
       <MaxWidthWrapper className='mb-18 mt-28 sm:mt-28 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
@@ -74,9 +72,7 @@ export default function Home() {
           </BoxReveal>
           <br />
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
-            <CoolMode>
-              <button><SwipeButton/></button>
-            </CoolMode>
+              <SwipeButton/>
           </BoxReveal>
       </MaxWidthWrapper>
       
@@ -440,7 +436,9 @@ export default function Home() {
               NVERSIONISTAS{' '}
             </h1>
           </BoxReveal> */}
-          <SparklesText text='Crew Inversionistas'/>
+          <SparklesText text='Crew'/>
+          <br />
+          <SparklesText text='Inversionistas'/>
       </MaxWidthWrapper>
       {/* Feature section */}
       <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
