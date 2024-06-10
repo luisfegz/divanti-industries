@@ -32,10 +32,10 @@ const Slider = () => {
         "DJI Phantom 4 RTK"
     ];
     const TextDescription = [
-        "Los equipos de construcción pueden tomar decisiones informadas de manera más rápida y precisa.",
+        "Toma decisiones informadas de manera ágil y precisa.",
         "PlanAR: Los planos de construcción en realidad virtual.",
         "Nuestra solución de instalaciones técnicas asistidas con realidad virtual para MEP. ",
-        "Inspecciones estructurales en alturas y grandes ."
+        "Inspecciones estructurales en alturas y grandes."
     ];
     const RedirectUrls = [
         "/soluciones/product1", 

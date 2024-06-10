@@ -63,9 +63,9 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                         h-full
                     "
                 />
-                <div className="absolute bottom-1/4 left-1/4 text-white">
-                    <h1 className="text-2xl pr-14 font-bold">{title[textIndexTitle]}</h1>
-                    <h2 className="pr-14">{description[textIndex]}</h2>
+                <div className="absolute bottom-7 pl-10 ">
+                    <h1 className="text-yellow-400 md:text-4xl sm:text-3xl text-base pr-14 font-bold">{title[textIndexTitle]}</h1>
+                    <h2 className="text-zinc-700 w-prose pr-14 md:text-4xl sm:text-3xl text-base">{description[textIndex]}</h2>
                 </div>
                 <button
                     onClick={showPrevImage} 
@@ -77,7 +77,8 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                         bottom-0
                         cursor-pointer
                         left-0
-                        hover:bg-zinc-900
+                        hover:bg-gradient-to-r
+                        from-zinc-400
                         transition-colors 
                         duration-100 
                         ease-in-out
@@ -103,7 +104,8 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                         bottom-0
                         cursor-pointer
                         right-0
-                        hover:bg-zinc-900
+                        hover:bg-gradient-to-l
+                        from-zinc-400
                         transition-colors 
                         duration-100 
                         ease-in-out
