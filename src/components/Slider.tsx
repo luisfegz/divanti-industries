@@ -32,9 +32,9 @@ const Slider = () => {
         "DJI Phantom 4 RTK"
     ];
     const TextDescription = [
-        "Con esta poderosa herramienta a su disposición, los equipos de construcción pueden tomar decisiones informadas de manera más rápida y precisa, optimizando así el proceso de construcción y garantizando el éxito del proyecto.",
+        "Con esta poderosa herramienta a su disposición, los equipos de construcción pueden tomar decisiones informadas de manera más rápida y precisa.",
         "Con PlanAR, los planos de construcción cobran vida a través de la realidad virtual, permitiendo una superposición inmersiva sobre el entorno real de la obra.",
-        "Nuestra solución de instalaciones técnicas asistidas con realidad virtual para MEP se centra en cuatro aspectos clave: Coordinación de Equipo Remota, Eficiencia en Tiempos y Precisión, Diseño de MEP Inmersivoy Simulaciones Avanzadas. ",
+        "Nuestra solución de instalaciones técnicas asistidas con realidad virtual para MEP. ",
         "Inspecciones estructurales en alturas y grandes distancias mediante drones es otra solucion que tendras a disposicion con nuestro departamento."
     ];
     const RedirectUrls = [
