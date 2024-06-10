@@ -64,7 +64,7 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                     "
                 />
                 <div className="absolute bottom-1/4 left-1/4 text-white">
-                    <h1 className="text-2xl font-bold">{title[textIndexTitle]}</h1>
+                    <h1 className="text-2xl pr-14 font-bold">{title[textIndexTitle]}</h1>
                     <h2 className="pr-14">{description[textIndex]}</h2>
                 </div>
                 <button
