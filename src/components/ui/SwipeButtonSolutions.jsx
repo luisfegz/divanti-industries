@@ -33,7 +33,7 @@ function SwipeButtonSolutions() {
                 items-center 
                 w-full 
                 font-semibold
-                ml-4
+                
             ' 
             onClick={scrollToSection}
         >

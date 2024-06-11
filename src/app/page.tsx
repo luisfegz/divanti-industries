@@ -75,9 +75,11 @@ export default function Home() {
             <BoxReveal boxColor={"#fff679"} duration={0.5}>
                 <SwipeButton/>
             </BoxReveal>
-            <BoxReveal boxColor={"#fff679"} duration={0.5}>
-                <SwipeButtonSolutions/>
-            </BoxReveal>
+            <div className='ml-4'>
+              <BoxReveal boxColor={"#fff679"} duration={0.5}>
+                  <SwipeButtonSolutions/>
+              </BoxReveal>
+            </div>
           </div>
           
       </MaxWidthWrapper>
