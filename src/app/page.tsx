@@ -46,10 +46,9 @@ export default function Home() {
               </div>
           </div>
       </div>
-      {/* Slider */}
-      <Slider/>      
+       
       {/* Title */}
-      <MaxWidthWrapper className='mb-18 mt-28 sm:mt-28 flex flex-col items-center justify-center text-center'>
+      <MaxWidthWrapper className='mb-18 mt-12 sm:mt-28 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <CustomButton/>
           </BoxReveal>
@@ -145,6 +144,7 @@ export default function Home() {
           Construcción
         </h1>
       </MaxWidthWrapper> */}
+         
       <MaxWidthWrapper className='mb-12 mt-12 sm:mt-40 flex flex-col items-center justify-center text-center'>
         
         <WordRotate 
@@ -426,6 +426,8 @@ export default function Home() {
           
         </div>
       </div>
+      {/* Slider */}
+      <Slider/>  
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           {/* <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>

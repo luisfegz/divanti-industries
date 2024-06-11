@@ -11,9 +11,9 @@ const SliderCustomSize = styled.div`
     aspect-ratio: 10 / 4.2;
     margin: 0 auto;
     @media (max-width: 800px) {
-        aspect-ratio: 10 / 7.5;
+        aspect-ratio: 10 / 4.2;
     }
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
         aspect-ratio: 4 / 3;
     }
 `;

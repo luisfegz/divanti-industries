@@ -63,9 +63,31 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                         h-full
                     "
                 />
-                <div className="absolute bottom-7 pl-10 ">
-                    <h1 className="text-yellow-400 md:text-4xl sm:text-3xl text-base pr-14 font-bold">{title[textIndexTitle]}</h1>
-                    <h2 className="text-zinc-700 w-prose pr-14 md:text-4xl sm:text-3xl text-base">{description[textIndex]}</h2>
+                <div className="absolute bottom-7 flex pl-10 ">
+                    <h1 
+                        className="
+                            text-yellow-400 
+                            md:text-4xl 
+                            sm:text-3xl 
+                            text-base 
+                            pr-14 
+                            font-bold
+                        "
+                    >
+                        {title[textIndexTitle]}
+                    </h1>
+                    <h2 
+                        className="
+                            text-zinc-700
+                            w-prose 
+                            pr-14 
+                            md:text-2xl 
+                            sm:text-xs 
+                            text-base
+                        "
+                    >
+                        {description[textIndex]}
+                    </h2>
                 </div>
                 <button
                     onClick={showPrevImage} 
