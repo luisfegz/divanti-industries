@@ -1,8 +1,8 @@
 import React from 'react';
 
-function SwipeButton() {
+function SwipeButtonSolutions() {
     const scrollToSection = () => {
-        const section = document.getElementById('SWIPE');
+        const section = document.getElementById('SWIPE-SOLUTIONS');
         if (section) {
             // Calcula la posición de la sección
             const sectionTop = section.offsetTop;
@@ -33,13 +33,14 @@ function SwipeButton() {
                 items-center 
                 w-full 
                 font-semibold
+                mt-4
             ' 
             onClick={scrollToSection}
         >
-            Contáctanos
+            Soluciones
         </button>
     );
 }
 
-export default SwipeButton;
+export default SwipeButtonSolutions;
 

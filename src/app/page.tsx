@@ -12,6 +12,7 @@ import CustomButton from '@/components/ui/CustomButton'
 import Image from 'next/image'
 import Link from 'next/link'
 import SwipeButton from '@/components/ui/SwipeButton'
+import SwipeButtonSolutions from '@/components/ui/SwipeButtonSolutions'
 import SparklesText from '@/components/magicui/sparkles-text'
 import Slider from '@/components/Slider'
 
@@ -73,6 +74,11 @@ export default function Home() {
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
               <SwipeButton/>
           </BoxReveal>
+          <div className='top-0'>
+            <BoxReveal boxColor={"#fff679"} duration={0.5}>
+                <SwipeButtonSolutions/>
+            </BoxReveal>
+          </div>
       </MaxWidthWrapper>
       
       {/* value proposition section */}
@@ -205,8 +211,9 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        {/* Tech 1 */}
-        <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
+      <section id='SWIPE-SOLUTIONS'>
+         {/* Tech 1 */}
+         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
           <li className='md:flex-1'>
             <div className='sm:left-2 flex flex-col space-y-2  border-zinc-300 py-2 pl-3 pr-3 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <div className='rounded-xl bg-gray-900/5  ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-0' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
@@ -356,7 +363,9 @@ export default function Home() {
             </div>
          </li>
         </ol>
-        
+
+      </section>
+               
         {/* value proposition section    */}
         <div>
           <div className='relative isolate'>
