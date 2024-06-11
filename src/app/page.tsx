@@ -71,14 +71,15 @@ export default function Home() {
             </h2>
           </BoxReveal>
           <br />
-          <BoxReveal boxColor={"#fff679"} duration={0.5}>
-              <SwipeButton/>
-          </BoxReveal>
-          <div className='top-0'>
+          <div className='flex items-stretch mt-0'>
+            <BoxReveal boxColor={"#fff679"} duration={0.5}>
+                <SwipeButton/>
+            </BoxReveal>
             <BoxReveal boxColor={"#fff679"} duration={0.5}>
                 <SwipeButtonSolutions/>
             </BoxReveal>
           </div>
+          
       </MaxWidthWrapper>
       
       {/* value proposition section */}
@@ -409,7 +410,7 @@ export default function Home() {
           </BoxReveal>
       </MaxWidthWrapper>
       {/* Feature section */}
-      <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>
+      <div className='mx-auto mb-12 max-w-5xl sm:mt-32'>
         <div className='mb-12 px-6 lg:px-8'>
           <div className='mx-auto max-w-2xl sm:text-center'>
             <p className='text-lg text-justify text-gray-600'>
@@ -436,9 +437,11 @@ export default function Home() {
         </div>
       </div>
       {/* Slider */}
-      <Slider/>  
+      <div className='mt-0'>
+        <Slider/>  
+      </div>
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
-          {/* <BoxReveal boxColor={"#fff679"} duration={0.5}>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
               <span className='text-yellow-400'>C</span>
               REW{' '}
@@ -446,10 +449,8 @@ export default function Home() {
               <span className='text-yellow-400'>I</span>
               NVERSIONISTAS{' '}
             </h1>
-          </BoxReveal> */}
-          <SparklesText text='Crew'/>
-          <br />
-          <SparklesText text='Inversionistas'/>
+          </BoxReveal> 
+          
       </MaxWidthWrapper>
       {/* Feature section */}
       <div className='mx-auto mb-32 max-w-5xl sm:mt-32'>

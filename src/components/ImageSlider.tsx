@@ -1,5 +1,5 @@
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type ImageSliderProps = {
     imageUrls: string[];
@@ -12,38 +12,28 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
     const [imageIndex, setImageIndex] = useState(0);
     const [textIndex, setTextIndex] = useState(0);
     const [textIndexTitle, setTextIndexTitle] = useState(0);
+
     const handleImageClick = () => {
-        onImageClick(imageIndex); // Llama a onImageClick con el índice de la imagen
+        onImageClick(imageIndex);
     };
+
     function showNextImage() {
-    
-        setTextIndex( index => {
-            if (index === imageUrls.length - 1) return 0 
-            return index + 1
-        }),
-        setTextIndexTitle( index => {
-            if (index === imageUrls.length - 1) return 0 
-            return index + 1
-        }),
-        setImageIndex( index => {
-            if (index === imageUrls.length - 1) return 0 
-            return index + 1
-        })        
+        const nextIndex = (imageIndex + 1) % imageUrls.length;
+        setImageIndex(nextIndex);
+        setTextIndex(nextIndex);
+        setTextIndexTitle(nextIndex);
     }
+
+    useEffect(() => {
+        const intervalId = setInterval(showNextImage, 2800);
+        return () => clearInterval(intervalId);
+    }, [imageIndex]);
+
     function showPrevImage() {
-        
-        setTextIndex( index => {
-            if (index === 0) return imageUrls.length - 1
-            return index - 1
-        }),
-        setTextIndexTitle( index => {
-            if (index === 0) return imageUrls.length - 1
-            return index - 1
-        }),
-        setImageIndex( index => {
-            if (index === 0) return imageUrls.length - 1
-            return index - 1
-        })        
+        const prevIndex = (imageIndex - 1 + imageUrls.length) % imageUrls.length;
+        setImageIndex(prevIndex);
+        setTextIndex(prevIndex);
+        setTextIndexTitle(prevIndex);
     }
     return (
         <div 
@@ -67,9 +57,9 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                     <h1 
                         className="
                             text-yellow-400 
-                            md:text-4xl 
-                            sm:text-3xl 
-                            text-base 
+                            md:text-3xl 
+                            sm:text-2xl 
+                            text-lg
                             pr-14 
                             font-bold
                         "
@@ -81,8 +71,8 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                             text-zinc-700
                             w-prose 
                             pr-14 
-                            md:text-2xl 
-                            sm:text-xs 
+                            md:text-xl 
+                            sm:text-lg
                             text-base
                         "
                     >
