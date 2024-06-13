@@ -10,24 +10,24 @@ const Page = () => {
      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
-              <span className='text-yellow-400'>D</span>
-              JI Mavic 3 Enterprise Series{' '}
+              <span className='text-yellow-400'>H</span>
+              ololens 2{' '}
             </h1>
           </BoxReveal>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h2 className="mt-3 max-w-prose text-xl text-zinc-700 sm:text-2xl">
-              UAV en construcción
+              Realidad virtual y aumetada para construcción
             </h2>
           </BoxReveal> 
       </MaxWidthWrapper>
-      <MaxWidthWrapper className='mb-2 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
 
-        <ol className='mt-2'>
+        <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
             <li className='md:flex-1'>
               <div className=''>
                 <div className=''>
                   <Image
-                    src='/product1.jpg'
+                    src='/product4.jpg'
                     alt='product preview'
                     width={1024}
                     height={1024}
@@ -44,8 +44,10 @@ const Page = () => {
                 <span className='mt-2 text-zinc-700'>
                   Aplicaciones:
                   <ul className='space-y-2'>
-                    <li>• PlanAR: Superposición inmersiva de Planos en la Realidad + herramientas.</li>
-                    <li>• Eficiencia y precision en procesos de inspeccion y direccion de obra.</li>
+                    <li>• Instalaciones tecnicas asistidas (Mecánica, Electricidad y Fontanería)</li>
+                    <li>
+Nuestra solución de instalaciones técnicas asistidas con realidad virtual para MEP se centra en cuatro aspectos clave:
+.</li>
                     <li>• Instalaciones tecnicas asistidas (Mecánica,Electricidad y Fontanería).</li>
                     <li>• Experiencia personalizada para el cliente.</li>
                     <li>• Mayor engagement en un alcance global.</li>

@@ -24,7 +24,7 @@ const Page = () => {
 
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
             <li className='md:flex-1'>
-              <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-3 pr-3 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
+              <div className='flex flex-col space-y-2 py-2 pl-3 pr-3 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
                 <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
                   <Image
                     src='/4.jpeg'
