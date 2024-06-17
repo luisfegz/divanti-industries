@@ -83,7 +83,6 @@ export default function Home() {
           </div>
           
       </MaxWidthWrapper>
-      
       {/* value proposition section */}
       <div>
         <div className='relative isolate'>

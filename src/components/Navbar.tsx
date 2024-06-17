@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link
                 href='/soluciones'
                 className='bg-yellow-400 hover:bg-yellow-600 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold'
-              >
+                >
                 Soluciones
                 <ArrowRight className='ml-1 h-5 w-5' />
               </Link>

@@ -3,6 +3,7 @@ import BoxReveal from '../../components/magicui/box-reveal';
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 const Page = () => {
   return (
@@ -114,6 +115,7 @@ const Page = () => {
                         ayuda a mantener el proyecto en el camino correcto.
 
                       </p>
+
                       
                     </div>
                   </div>
@@ -121,8 +123,37 @@ const Page = () => {
           </li>
           </ol>
       </MaxWidthWrapper>
+      <MaxWidthWrapper className='mb-0 mt-2 sm:mt-10 flex flex-col items-center justify-center text-center'>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
+              <span className='text-yellow-400'>P</span>
+              RODUCTOS{' '}
+            </h1>
+          </BoxReveal>
+      </MaxWidthWrapper>
+      <div className='mt-0 px-6 lg:px-8'>
+        <div className='mx-auto mt-10 max-w-2xl sm:text-center'>
+          <p className='text-lg text-justify text-gray-600'>
+            • Microsoft Hololens 2
+          </p>
+          <br />
+          <p className='text-lg text-justify text-gray-600'>
+            • Software incluido en el soporte tecnico
+          </p>
+          <br />
+          <br />
+          <Link
+              href='/productos'
+              className='bg-yellow-400 hover:bg-yellow-600 text-white text-primary-foreground hover:bg-primary/90 py-1 px-2.5 rounded flex items-center w-full font-semibold'
+              >
+              Pecios
+              <ArrowRight className='ml-1 h-5 w-5' />
+          </Link>
+          <br />
+          <br />
+        </div>
+      </div>
     </>
-    
   )
 }
 

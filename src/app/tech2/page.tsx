@@ -14,6 +14,11 @@ const Page = () => {
               OT PARA CONSTRUCCIÓN{' '}
             </h1>
           </BoxReveal>
+          <BoxReveal boxColor={"#fff679"} duration={0.5}>
+            <h2 className="mt-3 max-w-prose text-xl text-zinc-700 sm:text-2xl">
+            (Marketing orgánico y digital para proyectos)
+            </h2>
+          </BoxReveal> 
       </MaxWidthWrapper>
       <MaxWidthWrapper className='mb-2 mt-0 flex flex-col items-center justify-center text-center'>
             <div className='mx-auto mb-2 max-w-5xl mt-12'>
