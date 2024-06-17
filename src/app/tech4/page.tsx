@@ -7,20 +7,15 @@ import Image from "next/image";
 const Page = () => {
   return (
     <>
-     <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+     <MaxWidthWrapper className='mb-0 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
               <span className='text-yellow-400'>R</span>
               EALIDAD VIRTUAL Y AUMENTADA PARA LA CONSTRUCCIÓN{' '}
             </h1>
           </BoxReveal>
-          <BoxReveal boxColor={"#fff679"} duration={0.5}>
-            <h2 className="mt-3 max-w-prose text-xl text-zinc-700 sm:text-2xl">
-              
-            </h2>
-          </BoxReveal> 
       </MaxWidthWrapper>
-      <MaxWidthWrapper className='mb-2 mt-2 sm:mt-4 flex flex-col items-center justify-center text-center'>
+      <MaxWidthWrapper className='mb-2 mt-0 flex flex-col items-center justify-center text-center'>
             <div className='mx-auto mb-2 max-w-5xl sm:mt-32'>
                 <div className='mb-0 px-6 lg:px-8'>
                   <div className='mx-auto max-w-2xl sm:text-center'>
@@ -28,7 +23,7 @@ const Page = () => {
                       • PlanAR: Superposición inmersiva de Planos en la Realidad + herramientas.
                     </p>
                     <br />
-                    <p className='text-lg text-justify text-gray-600'>
+                    <p className='text-lg text-justify text-gray-600 mb-6'>
                       • Eficiencia y precision en procesos de inspeccion y direccion de obra.
                     </p>
                     <br />
@@ -43,7 +38,7 @@ const Page = () => {
                       />
                     </div>
                     <br />
-                    <p className='text-lg text-justify text-gray-600'>
+                    <p className='text-lg mt-4 text-justify text-gray-600'>
                       Con PlanAR, los planos de construcción cobran vida a través de la realidad virtual, 
                       permitiendo una superposición inmersiva sobre el entorno real de la obra. 
                       Esta innovadora tecnología no solo mejora la eficiencia, sino que también 
@@ -54,7 +49,7 @@ const Page = () => {
                 </div>
               </div>
       </MaxWidthWrapper>
-      <MaxWidthWrapper className='mb-12 mt-0 sm:mt-40 flex flex-col items-center justify-center text-center'>
+      <MaxWidthWrapper className='mb-12 mt-4 flex flex-col items-center justify-center text-center'>
 
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
             <li className='md:flex-1'>
@@ -70,7 +65,7 @@ const Page = () => {
                   />
                 </div>
                   <div className='mb-0 px-6 lg:px-8'>
-                    <div className='mx-auto max-w-2xl sm:text-center'>
+                    <div className='mx-auto mt-10 max-w-2xl sm:text-center'>
                       <p className='text-lg text-justify text-gray-600'>
                        Gracias a la superposición inmersiva de planos en la realidad, 
                        los equipos de construcción pueden visualizar y comprender mejor 
