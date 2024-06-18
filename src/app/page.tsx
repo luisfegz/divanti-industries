@@ -47,7 +47,7 @@ export default function Home() {
               </div>
           </div>
       </div>
-       
+      <Slider/>  
       {/* Title */}
       <MaxWidthWrapper className='mb-18 mt-12 sm:mt-28 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
@@ -439,7 +439,7 @@ export default function Home() {
       </div>
       {/* Slider */}
       <div className='mt-0'>
-        <Slider/>  
+        
       </div>
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
