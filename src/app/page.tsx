@@ -46,8 +46,7 @@ export default function Home() {
                   />
               </div>
           </div>
-      </div>
-      <Slider/>  
+      </div> 
       {/* Title */}
       <MaxWidthWrapper className='mb-18 mt-12 sm:mt-28 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
@@ -438,9 +437,11 @@ export default function Home() {
         </div>
       </div>
       {/* Slider */}
-      <div className='mt-0'>
-        
-      </div>
+      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        <div className='mt-0'>
+          <Slider/> 
+        </div>
+      </MaxWidthWrapper>
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-2xl font-bold md:text-3xl lg:text-7xl'>

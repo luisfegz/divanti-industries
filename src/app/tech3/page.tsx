@@ -142,8 +142,8 @@ const Page = () => {
       <MaxWidthWrapper className='mb-0 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <BoxReveal boxColor={"#fff679"} duration={0.5}>
           <h1 className='max-w-4xl text-4xl font-bold md:text-4xl lg:text-7xl'>
-            <span className='text-yellow-400'>V</span>
-            ALLAS PUBLICITARIAS PROMOVIENDO LA LEY DE ATRACCION{' '}
+            <span className='text-yellow-400'>G</span>
+            AFAS DE CARTÓN CONSTRUCTORA{' '}
           </h1>
         </BoxReveal>
       </MaxWidthWrapper>
@@ -156,11 +156,10 @@ const Page = () => {
                   <div className='mb-0 px-6 lg:px-8'>
                     <div className='mx-auto mt-0 max-w-2xl sm:text-center'>
                       <p className='text-lg text-justify text-gray-600'>
-                        En el análisis psicoanalítico de la experiencia del cliente con la realidad
-                        virtual, descubrimos una amplia gama de sentimientos y emociones estimuladas
-                        por la proyección. Este aspecto es importante y se puede jugar visualment
-                        relacionandolo con el concepto de la Ley de Atracción en las vallas publicitarias
-                        invitandolos a conocer los proyectos.
+                        Después de la visita del cliente, podriamos obsequiar gafas de realidad virtual 
+                        de cartón con la marca publicitaria de Constructora a los alrededores. Esto no
+                        solo promoveria el uso de esta tecnologia, sino que también le proporcionaría al 
+                        cliente un recuerdo tangible de su experiencia con Constructora.
                       </p>
                     </div>
                   </div>
@@ -171,8 +170,8 @@ const Page = () => {
       <MaxWidthWrapper className='mb-0 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <BoxReveal boxColor={"#fff679"} duration={0.5}>
           <h1 className='max-w-4xl text-4xl font-bold md:text-4xl lg:text-7xl'>
-            <span className='text-yellow-400'>D</span>
-              ISEÑA TU HABITACION{' '}
+            <span className='text-yellow-400'>C</span>
+              ONTENIDO VIRAL EN REDES SOCIALES{' '}
           </h1>
         </BoxReveal>
       </MaxWidthWrapper>
@@ -182,15 +181,12 @@ const Page = () => {
               <div className=' '>
                 <div className='' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
                 </div>
-                  <div className='mb-0 px-6 lg:px-8'>
+                  <div className='mb-10 px-6 lg:px-8'>
                     <div className='mx-auto mt-0 max-w-2xl sm:text-center'>
                       <p className='text-lg text-justify text-gray-600'>
-                        Aprovechando las herramientas de edición en vivo, surge la idea de &#34 Diseña tu habitación
-                        donde, mediante cambios predefinidos pero realistas, los clientes pueden diseñar su 
-                        habitación en tiempo real y visualizarse dentro de ella. Al finalizar la actividad, los 
-                        clientes recibirán fotos del resultado final y demas datos del proyecto de interes.
-
-
+                        Aprovechando la tendencia de las gafas en las redes sociales y el contenido tan 
+                        llamativo que podemos crear apartir de la realidad virtual, podemos hacer videos 
+                        virales informando proyectos para proximas familias.
                       </p>
                     </div>
                   </div>
