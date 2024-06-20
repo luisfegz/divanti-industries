@@ -123,6 +123,92 @@ const Page = () => {
           </li>
           </ol>
       </MaxWidthWrapper>
+      <MaxWidthWrapper className='mb-0 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
+        <BoxReveal boxColor={"#fff679"} duration={0.5}>
+          <h1 className='max-w-4xl text-4xl font-bold md:text-4xl lg:text-7xl'>
+            <span className='text-yellow-400'>I</span>
+            nstalaciones tecnicas asistidas (Mecánica, Electricidad y Fontanería)
+            {' '}
+          </h1>
+        </BoxReveal>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className='mb-0 mt-0 flex flex-col items-center justify-center text-center'>
+        <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
+            <li className='md:flex-1'>
+              <div className=' '>
+                <div className='' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                </div>
+                  <div className='mb-0 px-6 lg:px-8'>
+                    <div className='mx-auto mt-0 max-w-2xl sm:text-center'>
+                      <p className='text-lg text-justify text-gray-600'>
+                        Nuestra solución de instalaciones técnicas asistidas con realidad virtual para MEP se centra en cuatro aspectos clave:
+                        <br /><br />
+                        <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                          <Image
+                            src='/tech4-3.jpg'
+                            alt='product preview'
+                            width={1024}
+                            height={1024}
+                            quality={100}
+                            className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                          />
+                        </div>
+                        <br /><br />
+                        • Coordinación de Equipo Remota: Con la realidad virtual, los equipos pueden coordinarse de manera efectiva y colaborar 
+                        en el diseño y la resolución de problemas sin importar la distancia física. Esto agiliza el proceso de toma de decisiones 
+                        y garantiza una comunicación clara entre todos los miembros del equipo.
+                        <br /><br />
+                        <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                          <Image
+                            src='/tech4-5.jpg'
+                            alt='product preview'
+                            width={1024}
+                            height={1024}
+                            quality={100}
+                            className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                          />
+                        </div>
+                        <br /><br />
+                        • Eficiencia en Tiempos y Precisión: La RV permite un diseño MEP más rápido y preciso al detectar y corregir conflictos 
+                        antes de la construcción física. Esto reduce los retrasos y los costos asociados con los cambios durante la construcción, 
+                        al tiempo que garantiza una ejecución más precisa del proyecto.
+                        <br /><br />
+                        <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                          <Image
+                            src='/tech4-6.jpg'
+                            alt='product preview'
+                            width={1024}
+                            height={1024}
+                            quality={100}
+                            className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                          />
+                        </div>
+                        <br /><br />
+                        • Diseño de MEP Inmersivo: Nuestra plataforma ofrece una experiencia inmersiva donde los diseñadores pueden visualizar y 
+                        manipular los sistemas MEP en un entorno tridimensional. Esto facilita la comprensión del diseño y permite realizar ajustes 
+                        en tiempo real para optimizar el rendimiento y la eficiencia de los sistemas.
+                        <br /><br />
+                        <div className='rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4' style={{ maxWidth: '800px', margin: 'auto', padding: '1rem' }}>
+                          <Image
+                            src='/tech4-4.jpg'
+                            alt='product preview'
+                            width={1024}
+                            height={1024}
+                            quality={100}
+                            className='rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10'
+                          />
+                        </div>
+                        <br /><br />
+                        • Simulaciones Avanzadas: Utilizamos la realidad virtual para crear simulaciones detalladas de los sistemas MEP en funcionamiento. 
+                        Esto permite a los equipos probar diferentes escenarios y evaluar el rendimiento de los sistemas antes de la construcción, lo que 
+                        ayuda a minimizar riesgos y optimizar el diseño final.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+          </li>
+          </ol>
+      </MaxWidthWrapper>
       <MaxWidthWrapper className='mb-0 mt-2 sm:mt-10 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>

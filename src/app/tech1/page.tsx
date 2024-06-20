@@ -195,7 +195,7 @@ const Page = () => {
                 </MaxWidthWrapper>
                   <div className='mt-0 px-6 lg:px-8'>
                     <div className='mx-auto mt-10 max-w-2xl sm:text-center'>
-                      
+                      <br />
                       <p className='text-lg text-justify text-gray-600'>
                         • Software
                       </p>
