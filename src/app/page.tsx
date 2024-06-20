@@ -437,11 +437,7 @@ export default function Home() {
         </div>
       </div>
       {/* Slider */}
-      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
-        <div className='mt-0'>
-          <Slider/> 
-        </div>
-      </MaxWidthWrapper>
+      <Slider/> 
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
           <BoxReveal boxColor={"#fff679"} duration={0.5}>
             <h1 className='max-w-4xl text-2xl font-bold md:text-3xl lg:text-7xl'>
