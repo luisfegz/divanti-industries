@@ -90,7 +90,7 @@ export function ImageSlider({ imageUrls, title, description, onImageClick }: Ima
                         cursor-pointer
                         left-0
                         hover:bg-gradient-to-r
-                        from-zinc-400
+                        from-white
                         transition-colors 
                         duration-100 
                         ease-in-out
